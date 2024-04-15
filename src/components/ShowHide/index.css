@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.hide-container {
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: white;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+
+.show-hide-app-item-icon {
+  margin-bottom: 50px;
+}
+
+button {
+  height: 38px;
+  width: 180px;
+  border: 0;
+  border-radius: 10px;
+  color: #dd1264;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0;
+  margin-left: 30px;
+}
+
+.show-hide-app-output-con {
+  background-color: white;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .show-hide-app-items-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+  }
+  .show-hide-app-item-icon {
+    height: 300px;
+    width: 550px;
+  }
+}
